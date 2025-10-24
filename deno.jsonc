@@ -1,0 +1,6 @@
+{
+  "workspace": ["apps/*", "libs/*"],
+  "tasks": {
+    "dev:api": "deno run --allow-net --watch apps/api/main.ts"
+  }
+}
